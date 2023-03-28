@@ -1,0 +1,21 @@
+
+body{
+
+    background-color: yellow;
+}
+
+
+#texto{
+
+   
+    font-size: 30px;
+   
+    margin-top: 10px;
+}
+
+
+#texto.imagem{
+
+    border: 2px solid rgb(24, 23, 23);
+    float: right;
+}
