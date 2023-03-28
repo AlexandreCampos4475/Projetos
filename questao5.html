@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Meu Primeiro App</title>
+</head>
+<body>
+
+<h1>Ola bem vindo</h1>
+<p>Clice abaixo para aparecer algo</p>
+<button id="btn">Clique aqui</button>
+
+<script>
+const btn = document.getElementById('btn');
+
+
+btn.addEventListener('click', function handleClick() {
+  btn.textContent = 'Seja bem vindo Usuario';
+});
+
+
+</script>
+</body>
+</html>
