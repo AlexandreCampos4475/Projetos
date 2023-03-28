@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+</head>
+<body>
+	<h1>Digite um número:</h1>
+	<input type="number" id="numero" name="numero">
+	<button onclick="Numero()">Testar</button>
+
+
+    <script>
+		function Numero() {
+			var numero = document.getElementById("numero").value;
+			if (numero % 2 == 0) {
+				alert(numero + " par.");
+			} else {
+				alert(numero + " ímpar.");
+			}
+		}
+
+        </script>
+</body>
+</html>
